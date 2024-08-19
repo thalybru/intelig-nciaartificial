@@ -8,18 +8,45 @@ const caixaResultado1 = document.querySelector(".caixa-principal");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você costuma ouvir música todos os dias?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Não!",
+                afirmacao: "Não ouve música todos os dias. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Sim é maravilhoso!",
+                afirmacao: "Ouve música todos os dias."
             }
         ]
     },
+    {
+        enunciado: "Você tem um gosto musical, eclético?",
+        alternativas: [
+            {
+                texto: "Não",
+                afirmacao: "Gosta apenas de tipos específicos de música. "
+            },
+            {
+                texto: "Sim",
+                afirmacao: "Ouve vários tipos de música."
+            }
+        ]
+    },
+    {
+        enunciado: "funk é música?",
+        alternativas: [
+            {
+                texto: "Não!",
+                afirmacao: "É uma poluição sonora. "
+            },
+            {
+                texto: "Sim!",
+                afirmacao: "Gosta de funk."
+            }
+        ]
+    },
+];
 
 let atual = 0;
 let perguntaAtual;
